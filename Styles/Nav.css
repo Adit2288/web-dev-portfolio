@@ -7,6 +7,12 @@
   font-variation-settings:
     "wdth" 100;
 }
+ .text-center
+ {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+ }
 
  .secondary-bg{
      background: bisque;;
@@ -121,4 +127,32 @@ nav ul li{
       padding:130px 150px ;
       text-align: center;
       margin-top: 100px;
+    }
+ .about-items{
+  display: flex;
+   justify-content: space-around;
+   
+ }
+
+
+    .item-description{
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+ .ecperience-sub-title{
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+ }
+
+  .experience-title{
+      margin-bottom: 10px;
+      font-size: 25px;
+      font-weight: bold;
+  }
+
+    .resume-container{
+      display: flex;
+      gap: 24px; 
     }

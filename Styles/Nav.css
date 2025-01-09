@@ -8,6 +8,10 @@
     "wdth" 100;
 }
 
+ .secondary-bg{
+     background: bisque;;
+ }
+
  .btn-primary{
  border-radius: 5px;
  background: rgb(253, 110, 10);
@@ -96,3 +100,25 @@ nav ul li{
   .banner-content{
     max-width: 580px;
   }
+
+   .section-title{
+    font-weight: bold;
+    font-size:  35px;
+    color: #181818;
+   }
+
+   .secstion-description{
+    font-size:18px;
+
+   }
+
+    main {
+         max-width: 1140px;
+         margin: 0 auto;
+    }
+
+    .about{
+      padding:130px 150px ;
+      text-align: center;
+      margin-top: 100px;
+    }
